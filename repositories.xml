@@ -1,0 +1,14 @@
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>livid</name>
+		<description>Personal Gentoo overlay for AlwaysLivid and their infrastructure.</description>
+		<homepage>https://github.com/LIVIDnet/livid-overlay</homepage>
+		<owner>
+			<email>hello@alwayslivid.com</email>
+			<name>Panagiotis Vasilopoulos</name>
+		</owner>
+		<source type="git">git://github.com/LIVIDnet/livid-overlay.git</source>
+		<source type="git">https://github.com/LIVIDnet/livid-overlay.git</source>
+		<source type="git">git@github.com:LIVIDnet/livid-overlay.git</source>
+	</repo>
+</repositories>
