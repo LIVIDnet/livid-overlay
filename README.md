@@ -2,6 +2,18 @@
 
 This is a personal overlay for AlwaysLivid's (Panos) personal machines and infrastructure.
 
+## Profiles
+
+There's currently one profile that's present in the repository called `livid:client`, which bundles together [`KDE's Plasma`](https://kde.org/plasma-desktop) alongside with [`systemd`](https://systemd.io), [`SELinux`](https://selinuxproject.org), as well as [Pentoo Linux's](https://pentoo.ch) overlay.
+
+In order to apply the profile, run the following:
+
+```
+# eselect profile set livid:client-plasma
+```
+
+The combination as mentioned above is currently unsupported on [Gentoo Linux](https://gentoo.org).
+
 ## Usage
 
 ### Portage
@@ -14,7 +26,7 @@ This is a personal overlay for AlwaysLivid's (Panos) personal machines and infra
 auto-sync = yes
 location = /usr/local/portage/overlays/livid
 sync-type = git
-sync-uri = https://github.com/LIVIDnet/livid-overlay.ggit
+sync-uri = https://github.com/LIVIDnet/livid-overlay.git
 ```
 
 ## Contributing
